@@ -15,19 +15,6 @@ public class FileParsingTest {
 
     private ClassLoader cl = FileParsingTest.class.getClassLoader();
 
-//    @Test
-//    void zipTest() throws Exception {
-//        //sample-zip-file.zip
-//        try (InputStream stream = cl.getResourceAsStream("files/sample-zip-file.zip");
-//             ZipInputStream zis = new ZipInputStream(stream)) {
-//            ZipEntry zipEntry;
-//            while ((zipEntry = zis.getNextEntry()) != null) {
-//                assertThat(zipEntry.getName()).isEqualTo("sample.txt");
-//            }
-//        }
-//        ZipFile zf = new ZipFile(new File(cl.getResource("files/sample-zip-file.zip").toURI()));
-//    }
-
     @Test
     void zipFileTest() throws Exception{
 
