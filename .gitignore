@@ -21,10 +21,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 /gradle/
+=======
+>>>>>>> e21383e904a6238d53d4cfff7d1a46d407398f02
 gradle
 .gradle
 .idea
 gradlew.bat
+<<<<<<< HEAD
 gradlew
 build
+=======
+build
+gradlew
+
+>>>>>>> e21383e904a6238d53d4cfff7d1a46d407398f02
